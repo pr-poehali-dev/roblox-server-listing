@@ -15,8 +15,8 @@ const Hero = () => {
             <span className="text-neon-purple neon-text">AIRPORT</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 font-inter max-w-2xl mx-auto">
-            Лучший сервер аэропорта в Roblox. Реалистичные полёты, множество
-            самолётов и невероятные приключения ждут вас!
+            Станьте персоналом аэропорта! Помогайте с полётами, становитесь
+            разработчиком или модератором в самом реалистичном аэропорту Roblox!
           </p>
         </div>
 
