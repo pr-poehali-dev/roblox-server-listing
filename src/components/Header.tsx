@@ -1,4 +1,5 @@
 import Icon from "@/components/ui/icon";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -15,30 +16,30 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
-            <a
-              href="#"
+            <Link
+              to="/servers"
               className="text-sm font-medium hover:text-neon-cyan transition-colors glow-hover"
             >
               Серверы
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/filters"
               className="text-sm font-medium hover:text-neon-purple transition-colors glow-hover"
             >
               Фильтры
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/stats"
               className="text-sm font-medium hover:text-neon-green transition-colors glow-hover"
             >
               Статистика
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/help"
               className="text-sm font-medium hover:text-neon-pink transition-colors glow-hover"
             >
               Помощь
-            </a>
+            </Link>
           </nav>
 
           <button className="md:hidden">
